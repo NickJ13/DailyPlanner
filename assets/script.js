@@ -18,6 +18,10 @@ $("#hour-4 .description").val(localStorage.getItem("#hour-4"));
 $("#hour-5 .description").val(localStorage.getItem("#hour-5"));
 })
 
+function date () {
+  var date = new Date();
+  console.log(date);
+}
 
 
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
